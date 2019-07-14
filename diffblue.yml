@@ -173,11 +173,16 @@ phases:
       cover-only: file
 units:
  - target:
-   - dir: webmagic-extension/target/classes
-     file: us/codecraft/webmagic/utils/DoubleKeyMap.class
-     sourceDir: webmagic-extension/src/main/java
-     sourceFile: us/codecraft/webmagic/utils/DoubleKeyMap.java
-   - dir: webmagic-extension/target/classes
-     file: us/codecraft/webmagic/utils/MultiKeyMapBase.class
-     sourceDir: webmagic-extension/src/main/java
-     sourceFile: us/codecraft/webmagic/utils/MultiKeyMapBase.java
+   - dir: webmagic-core/target/classes
+     file: us/codecraft/webmagic/utils/UrlUtils.class
+     sourceDir: webmagic-core/src/main/java
+     sourceFile: us/codecraft/webmagic/utils/UrlUtils.java
+   - dir: webmagic-core/target/classes
+     file: us/codecraft/webmagic/Request.class
+     sourceDir: webmagic-core/src/main/java
+     sourceFile: us/codecraft/webmagic/Request.java
+ - target:
+   - dir: webmagic-core/target/classes
+     file: us/codecraft/webmagic/utils/NumberUtils.class
+     sourceDir: webmagic-core/src/main/java
+     sourceFile: us/codecraft/webmagic/utils/NumberUtils.java
